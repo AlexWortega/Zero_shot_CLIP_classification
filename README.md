@@ -13,4 +13,4 @@ max_cosine_text - используется для сравнения одног�
 
 max_cosine_images -  используется для сравнения одного текста со многими изображениями
 
-(Collab)[https://colab.research.google.com/drive/1osnyWa_VyCqDUsWFHjkwWVGocw4YzZKU?usp=sharing]
+[Collab](https://colab.research.google.com/drive/1osnyWa_VyCqDUsWFHjkwWVGocw4YzZKU?usp=sharing)
