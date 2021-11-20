@@ -1,6 +1,5 @@
-
+import clip
 import torch
-from CLIP import clip
 from PIL import Image
 from torch import nn
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -13,7 +12,7 @@ import transformers
 
 
 class MultilingualClip(torch.nn.Module):
-    def __init__(self, model_name, tokenizer_name, head_name, weights_dir='/content/'):
+    def __init__(self, model_name, tokenizer_name, head_name, weights_dir=''):
         super().__init__()
         self.model_name = model_name
         self.tokenizer_name = tokenizer_name
@@ -131,4 +130,3 @@ def max_cosine_images(image_paths,label):
 
     
     return max, max_score_image,path 
-    
