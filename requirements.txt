@@ -5,4 +5,3 @@ torch
 torchvision
 git+https://github.com/openai/CLIP.git
 transformers
-wget
